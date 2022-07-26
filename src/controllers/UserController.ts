@@ -6,10 +6,12 @@ import { Request, Response } from 'express';
 //   }
 // }
 
-const UserController = (request: Request, response: Response) => 
+const UserController = (request: Request, response: Response) => { 
   response.json({
     name: "User Name",
     email: "user@user.com",
   });
+}
+
 
 export default UserController; 
